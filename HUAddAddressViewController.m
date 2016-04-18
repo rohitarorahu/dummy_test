@@ -14,13 +14,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *setDefaultAddressButton;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *stepsPopupViewHeightConstraint;
 @property (weak, nonatomic) IBOutlet UIView *stepsPopupView;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *amountDetailsViewTopConstraint;
-@property (weak, nonatomic) IBOutlet UILabel *stepIndicatorLabel;
-@property (weak, nonatomic) IBOutlet UIButton *headerViewButton;
-@property (weak, nonatomic) IBOutlet UILabel *itemsAndPaymentDetailsLabel;
-@property (weak, nonatomic) IBOutlet UIView *greyLineView;
-@property (weak, nonatomic) IBOutlet UIView *statusBarView;
-@property (weak, nonatomic) IBOutlet UIButton *backButton;
 @end
 
 @implementation HUAddAddressViewController {
